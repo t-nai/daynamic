@@ -1,5 +1,5 @@
-# daynamic
-a simple way to track your daily medications
+# _daynamic_
+_a simple way to track your daily medications_
 
 **To run this program, download all files in the main branch. Ensure all downloaded files are in the same folder as index.html and open index.html with your computer browser to access the website.**
 
