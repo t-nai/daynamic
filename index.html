@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>daynamic</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1 class="montserrat-200"> <i><b>day</b>namic</i></h1>
+		<div class="wrapper">
+			<header>
+				<p class="current-date"></p>
+				<div class="icons">
+					<span id="prev" class="material-symbols-rounded">chevron_left</span>
+					<span id="next" class="material-symbols-rounded">chevron_right</span>
+				</div>
+			</header>
+			<div class="clouds"></div>
+			<div class="calendar">
+				<ul class="weeks">
+					<li>MON</li>
+					<li>TUE</li>
+					<li>WED</li>
+					<li>THU</li>
+					<li>FRI</li>
+					<li>SAT</li>
+					<li>SUN</li>
+				</ul>
+				<ul class="days">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+					<li>11</li>
+					<li>12</li>
+					<li>13</li>
+					<li>14</li>				
+					<li>15</li>
+					<li>16</li>
+					<li>17</li>
+					<li>18</li>
+					<li>19</li>
+					<li>20</li>
+					<li>21</li>
+					<li>22</li>
+					<li>23</li>
+					<li>24</li>
+					<li>25</li>
+					<li>26</li>
+					<li class="active">27</li>
+					<li>28</li>
+					<li>29</li>
+					<li>30</li>
+					<li>31</li>
+				</ul>
+			</div>
+		</div>
+<button class="meds-btn">
+  <img src="clouds.png" class="meds-icon">
+</button>
+<div class="meds-modal">
+  <div class="meds-container">
+    <h2>medications for today:</h2>
+    <ul class="meds-list">
+    </ul>
+    <input type="text" id="newMedInput" placeholder="enter medication"/>
+    <button id="close-modal">x</button>
+  </div>
+</div>
+	</body>
+</html>
+
