@@ -16,7 +16,7 @@ _daynamic_ allows individuals who are taking multiple medications to keep track 
 I utilized a tutorial to write the base dynamic calendar code with HTML and CSS. I then integrated the calendar + medicine tracker functionality using JavaScript.
 
 **Challenges I ran into**\
-My website utilizes a lot of buttons and graphical elements which I had to make sure functioned properly as well as looked aesthetically pleasing to the eye.
+My website integrates a lot of buttons and graphical elements which I had to make sure functioned properly as well as looked aesthetically pleasing to the eye.
 
 **Accomplishments that I'm proud of**\
 I was able to make the website simplistic, user-friendly, and appealing to use.
